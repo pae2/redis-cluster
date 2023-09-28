@@ -1,4 +1,4 @@
-# Bitnami redis-cluster and exporter on ubi8 Helm and sources
+# Bitnami redis-cluster and exporter on ubi8. Helm and sources
 
 Docker cmd for redis-cluster image
 ```
