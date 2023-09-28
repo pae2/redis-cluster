@@ -5,4 +5,4 @@ version: '2'
 
 services:
   redis-exporter:
-    image: docker.io/bitnami/redis-exporter:1
+    image: docker.io/pae2/redis-exporter:1.54.0-ubi8-minimal
