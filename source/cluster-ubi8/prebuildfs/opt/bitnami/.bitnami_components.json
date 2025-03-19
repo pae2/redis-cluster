@@ -1,7 +1,7 @@
 {
     "redis": {
         "arch": "amd64",
-        "distro": "debian-11",
+        "distro": "ubi-minimal",
         "type": "NAMI",
         "version": "7.2.1-0"
     }

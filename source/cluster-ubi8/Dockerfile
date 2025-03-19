@@ -20,6 +20,7 @@ RUN mkdir -p /opt/bitnami && mkdir -p /tmp/bitnami/pkg/cache/ && cd /tmp/bitnami
 
 RUN dnf remove tar gzip -y && \
     dnf update && dnf upgrade -y && \
+    dnf install openssl1.1 -y && \
     dnf clean all
 
 RUN chmod g+rwX /opt/bitnami
