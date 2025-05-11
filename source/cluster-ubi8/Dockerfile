@@ -40,4 +40,4 @@ ENTRYPOINT [ "/opt/bitnami/scripts/redis-cluster/entrypoint.sh" ]
 CMD [ "/opt/bitnami/scripts/redis-cluster/run.sh" ]
 
 
-# docker run --rm -it --platform linux/amd64 redis-cluster
+# docker run --rm -it --platform linux/amd64 quay.io/bitnani/redis-cluster:7.2.1-redos-minimal

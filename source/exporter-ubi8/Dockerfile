@@ -35,3 +35,4 @@ EXPOSE 9121
 WORKDIR /opt/bitnami/redis-exporter
 USER 1001
 ENTRYPOINT [ "redis_exporter" ]
+
