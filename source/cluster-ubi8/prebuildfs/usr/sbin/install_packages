@@ -10,8 +10,8 @@ export UBI8_FRONTEND=noninteractive
 until [ $n -gt $max ]; do
     set +e
     (
-      dnf update &&
-      dnf install -y "$@"
+      microdnf update &&
+      microdnf install -y "$@"
     )
     CODE=$?
     set -e
@@ -24,4 +24,4 @@ until [ $n -gt $max ]; do
     echo "dnf failed, retrying"
     n=$(($n + 1))
 done
-dnf clean all
+microdnf clean all
